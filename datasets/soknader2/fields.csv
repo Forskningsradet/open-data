@@ -4,7 +4,7 @@ prosjekttittel,Prosjekttittel,Tittel på søknad/prosjekt. Kan inneholde linjesk
 soknadsfrist,Søknadsfrist,"De fleste søknader er knyttet til en søknadsfrist, søknader uten søknadsfrist er enten søknader i forbindelse med en løpende utlysning eller manuelt opprettede prosjekter."
 soknadsdato,Søknadsdato,Dato for innsendt søknad
 utlysnings_id,UtlysningsID,Unik identifikasjon av den enkelte utlysningen
-utlysningsaktivitet,Utlysningsaktivitet,Aktiviteten som lyser ut midler til forskning og innovasjon. Sammenfaller ofte med "Akivitet, men ved fellesutlysninger/flytting av søknader vil det være avvik mellom utlysningsaktivitet og aktivitet."
+utlysningsaktivitet,Utlysningsaktivitet,"Aktiviteten som lyser ut midler til forskning og innovasjon. Sammenfaller ofte med Akivitet, men ved fellesutlysninger/flytting av søknader vil det være avvik mellom utlysningsaktivitet og aktivitet."
 utlysningtittel,Utlysningtittel,Tittel på den enkelte utlysningen av forskningsmidler
 prosjekttype,Prosjekttype,"Beskrivelse av prosjektene på tvers av virkemiddelhierarkiet - inneholder verdiene Prosjektstøtte, Institusjonsstøtte, Personlig stipend og Andre"
 soknadstype,Søknadstype,Søknadstypen beskriver hvilke vurderingskriterier og krav til søknaden som gjelder. Gamle søknadstyper er så godt det lar seg gjøre konvertert til nye søknadstyper fra 2019/2020. Se https://www.forskningsradet.no/sok-om-finansiering/midler-fra-forskningsradet/nye-soknadstyper-i-2019/
