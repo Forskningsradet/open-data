@@ -47,8 +47,7 @@
       <groupable>false</groupable>
       <searchable>false</searchable>
       <indexPrimaryKey>false</indexPrimaryKey>
-      <content>Aktiviteten som lyser ut midler til forskning og innovasjon. Sammenfaller ofte med 
-Akivitet, men ved fellesutlysninger/flytting av søknader vil det være avvik mellom utlysningsaktivitet og aktivitet.</content>
+      <content>Aktiviteten som lyser ut midler til forskning og innovasjon. Sammenfaller ofte med Akivitet, men ved fellesutlysninger/flytting av søknader vil det være avvik mellom utlysningsaktivitet og aktivitet.</content>
     </field>
     <field>
       <name>Utlysningtittel</name>
@@ -80,7 +79,7 @@ Akivitet, men ved fellesutlysninger/flytting av søknader vil det være avvik me
       <groupable>true</groupable>
       <searchable>false</searchable>
       <indexPrimaryKey>false</indexPrimaryKey>
-      <content>Søknadstypevariant er underkategorier av søknadstyper fra og med 2019/2020. Der det er relevant er også eldre søknader/prosjekter konvertert til søknadstypevarianter. </content>
+      <content>Søknadstypevariant er underkategorier av søknadstyper fra og med 2019/2020. Der det er relevant er også eldre søknader/prosjekter konvertert til søknadstypevarianter.</content>
     </field>
     <field>
       <name>Søkstart</name>
