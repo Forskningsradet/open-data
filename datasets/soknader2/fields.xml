@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<datasetFields>
+  <fields>
+    <field>
+      <name>Prosjektnummer</name>
+      <shortName>prosjektnummer</shortName>
+      <groupable>false</groupable>
+      <searchable>true</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Unik identifikasjon av den enkelte søknad/det enkelte prosjekt. Datagrunnlaget inneholder en linje for hvert prosjekt</content>
+    </field>
+    <field>
+      <name>Prosjekttittel</name>
+      <shortName>prosjekttittel</shortName>
+      <groupable>false</groupable>
+      <searchable>true</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Tittel på søknad/prosjekt. Kan inneholde linjeskift.</content>
+    </field>
+    <field>
+      <name>Søknadsfrist</name>
+      <shortName>soknadsfrist</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>De fleste søknader er knyttet til en søknadsfrist, søknader uten søknadsfrist er enten søknader i forbindelse med en løpende utlysning eller manuelt opprettede prosjekter.</content>
+    </field>
+    <field>
+      <name>Søknadsdato</name>
+      <shortName>soknadsdato</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Dato for innsendt søknad</content>
+    </field>
+    <field>
+      <name>UtlysningsID</name>
+      <shortName>utlysnings_id</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Unik identifikasjon av den enkelte utlysningen</content>
+    </field>
+    <field>
+      <name>Utlysningsaktivitet</name>
+      <shortName>utlysningsaktivitet</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Aktiviteten som lyser ut midler til forskning og innovasjon. Sammenfaller ofte med 
+Akivitet, men ved fellesutlysninger/flytting av søknader vil det være avvik mellom utlysningsaktivitet og aktivitet.</content>
+    </field>
+    <field>
+      <name>Utlysningtittel</name>
+      <shortName>utlysningtittel</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Tittel på den enkelte utlysningen av forskningsmidler</content>
+    </field>
+    <field>
+      <name>Prosjekttype</name>
+      <shortName>prosjekttype</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Beskrivelse av prosjektene på tvers av virkemiddelhierarkiet - inneholder verdiene Prosjektstøtte, Institusjonsstøtte, Personlig stipend og Andre</content>
+    </field>
+    <field>
+      <name>Søknadstype</name>
+      <shortName>soknadstype</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Søknadstypen beskriver hvilke vurderingskriterier og krav til søknaden som gjelder. Gamle søknadstyper er så godt det lar seg gjøre konvertert til nye søknadstyper fra 2019/2020. Se https://www.forskningsradet.no/sok-om-finansiering/midler-fra-forskningsradet/nye-soknadstyper-i-2019/</content>
+    </field>
+    <field>
+      <name>Søknadstypevariant</name>
+      <shortName>soknadstypevariant</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Søknadstypevariant er underkategorier av søknadstyper fra og med 2019/2020. Der det er relevant er også eldre søknader/prosjekter konvertert til søknadstypevarianter. </content>
+    </field>
+    <field>
+      <name>Søkstart</name>
+      <shortName>sokstart</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Søknadens starttidspunkt</content>
+    </field>
+    <field>
+      <name>Søkslutt</name>
+      <shortName>sokslutt</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Søknadens sluttidspunkt</content>
+    </field>
+    <field>
+      <name>Prosjektfase</name>
+      <shortName>prosjektfase</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Et prosjekt har til en hver tid én prosjektfase - inneholder verdiene Mottatt, Vurderes, Avslag, Bevilgning og Avsluttet. Prosjekter som har fått støtte har enten fasen Bevilgning (fremdeles et aktivt prosjekt) eller Avsluttet</content>
+    </field>
+    <field>
+      <name>Prosjektets fra-år</name>
+      <shortName>prosjektstart</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Prosjektets oppstartsår - kan avvike fra tidspunkt i søknaden ved for eksempel forsinkelser</content>
+    </field>
+    <field>
+      <name>Prosjektets til-år</name>
+      <shortName>prosjektslutt</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Prosjektets sluttår - kan avvike fra tidspunkt i søknaden ved for eksempel forsinkelser</content>
+    </field>
+    <field>
+      <name>Prosjektleders kjønn</name>
+      <shortName>prosjektleder_kjonn</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Prosjektleders kjønn</content>
+    </field>
+    <field>
+      <name>Type prosjektansvarlig</name>
+      <shortName>prosjektansvarlig_type</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Organisasjon eller person (gjelder kun ved personlig stipend).</content>
+    </field>
+    <field>
+      <name>Prosjektansvarlig navn</name>
+      <shortName>prosjektansvarlig_navn</shortName>
+      <groupable>true</groupable>
+      <searchable>true</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Prosjektansvarlig er den som har ansvaret for prosjektet. Flere samarbeidspartnere kan delta i prosjektet (og motta deler av prosjektbevilgningen fra Forskningsrådet), men navn på samarbeidspartner regnes som tauhetsbelagt informasjon. Navn på prosjektansvarlig skal være registrert på lavest mulig nivå i organisasjonen.</content>
+    </field>
+    <field>
+      <name>Prosjektansvarlig kortnavn</name>
+      <shortName>kortnavn</shortName>
+      <groupable>true</groupable>
+      <searchable>true</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Overordnet navn på prosjektansvarlig organisasjon. Er stort sett fylt ut for organisasjoner innenfor UoH-sektoren og instituttsektoren.</content>
+    </field>
+    <field>
+      <name>Organisasjonsnummer</name>
+      <shortName>organisasjonsnummer</shortName>
+      <groupable>true</groupable>
+      <searchable>true</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Organisasjonsnummer i Enhetsregisteret</content>
+    </field>
+    <field>
+      <name>Kontraktspart 1</name>
+      <shortName>kp1</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Kode på overordnet nivå om prosjektansvarlig - gruppert for hvert enkelt universitet, vitenskapelig høyskole eller høyskole, instituttgrupper og de enkelte regionale helseforetakene</content>
+    </field>
+    <field>
+      <name>Kontraktspart 2</name>
+      <shortName>kp2</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Kode på mer deltaljert nivå - de enkelte fakultetene på universitetene, de enkelte helseforetak og institutter.</content>
+    </field>
+    <field>
+      <name>FoU sektor</name>
+      <shortName>sektor</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Fordeling av prosjektansvarlig på ulike sektorer - inneholder verdiene UH-sektor, instituttsektor, næringsliv, helseforetak, utlandet og øvrige</content>
+    </field>
+    <field>
+      <name>FoU kategori</name>
+      <shortName>kategori</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Inneholder en spesifisering av ulike undergrupper i den enkelte sektor - en oversikt kan finnes ved hjelp av venstremenyen i Prosjektbanken (Organisasjon)</content>
+    </field>
+    <field>
+      <name>Kommune</name>
+      <shortName>kommune</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Kommune der forskningen finner sted</content>
+    </field>
+    <field>
+      <name>Kommunenummer</name>
+      <shortName>kommunenummer</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Firesifret identifikator for kommuner</content>
+    </field>
+    <field>
+      <name>Fylke</name>
+      <shortName>fylke</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Fylke der forskningen finner sted</content>
+    </field>
+    <field>
+      <name>Fylkenummer</name>
+      <shortName>fylkenummer</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content></content>
+    </field>
+    <field>
+      <name>Landsdel</name>
+      <shortName>landsdel</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Lansdel der forskningen finner sted</content>
+    </field>
+    <field>
+      <name>Virkemiddel sekvens</name>
+      <shortName>virkemiddel_sekvens</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Brukes til å sortere virkemidlene</content>
+    </field>
+    <field>
+      <name>Virkemiddel</name>
+      <shortName>virkemiddel</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Det høyeste nivået i Forskningsrådets hierarki av finansieringsvirkemidler - inneholder verdiene Programmer, Frittstående prosjekter, Infrastruktur og institusjonelle tiltak, Nettverkstiltak, Forvaltning, Felleskostnader og Diverse FoU-relaterte aktiviteter</content>
+    </field>
+    <field>
+      <name>Hovedaktivitet sekvens</name>
+      <shortName>hovedaktivitet_sekvens</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Brukes til sortere hovedaktivitetene</content>
+    </field>
+    <field>
+      <name>Hovedaktivitet</name>
+      <shortName>hovedaktivitet</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>En mer detaljert gruppering av finansieringsvirkemidler - en oversikt kan finnes ved hjelp av venstremenyen i Prosjektbanken (Program/Aktivitet)</content>
+    </field>
+    <field>
+      <name>Aktivitetsnavn</name>
+      <shortName>aktivitet</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>De enkelte prosjektene tilhører en aktivitet. Aktiviteten kan være et program eller en annen finansieringaktivitet som på grunnlag av en programplan med overordnede mål, lyser ut og forvalter midler til forskning og innovasjon for å nå målene i programplanen</content>
+    </field>
+    <field>
+      <name>Aktivitetskode</name>
+      <shortName>aktivitet_kode</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Kort kode for de ulike aktivitetene</content>
+    </field>
+    <field>
+      <name>Fagområde</name>
+      <shortName>fagomraade</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Overordnet kategorisering av disipliner i Norsk inndeling av vitenskapsdisipliner.</content>
+    </field>
+    <field>
+      <name>Fag</name>
+      <shortName>fag</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Kategorisering av disipliner i Norsk innedeling av vitenskapsdispliner</content>
+    </field>
+    <field>
+      <name>Fagdisiplin</name>
+      <shortName>fagdisiplin</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Detaljert kategorisering av disipliner i Norsk inndeling av vitenskapsdisipliner</content>
+    </field>
+    <field>
+      <name>Dr.stip - antall årsverk</name>
+      <shortName>dr_stip_aarsverk</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Antall årsverk phd tilknyttet prosjektet (helt eller delvis finansiert av Forskningsrådet)</content>
+    </field>
+    <field>
+      <name>Postdok - antall årsverk</name>
+      <shortName>postdok_aarsverk</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Antall årsverk postdok tilknyttet prosjektet (helt eller delvis finansiert av Forskningsrådet)</content>
+    </field>
+    <field>
+      <name>Søkt beløp</name>
+      <shortName>sokt_belop</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Totalbeløp søkt for hele prosjektperioden</content>
+    </field>
+    <field>
+      <name>Tildelt beløp</name>
+      <shortName>tildelt_belop</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Totalt tildelt beløp for hele prosjektperioden</content>
+    </field>
+  </fields>
+</datasetFields>
