@@ -1,7 +1,6 @@
 # open-data
 datasets/soknader2/dataset.csv sist oppdatert oktober.
 
-
 ## pack.sh
 Script for å generere filer: (sample.csv, README.md, fields.csv)
 Køyrast kvar gang ein har oppdatert nokon av hovudfilene i kvar datasett-katalog: meta.xml, dataset.csv eller fields.xml/fields.csv
