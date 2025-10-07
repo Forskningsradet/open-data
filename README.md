@@ -1,5 +1,5 @@
 # open-data
-datasets/soknader2/dataset.csv sist oppdaterg oktober.
+datasets/soknader2/dataset.csv sist oppdatert oktober.
 
 ## pack.sh
 Script for å generere filer: (sample.csv, README.md, fields.csv)
