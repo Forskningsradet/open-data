@@ -1,5 +1,8 @@
 # Datasett: 	Søknader - versjon 2
- Sist oppdatert: 2025-03-27 12:25
+**VIKIG: Datasettet inneholder ikke data fra vårt nye saksbehandlingsystem Tibi**
+
+ Sist oppdatert: 2026-08-27 15:00
+
 
  Filer:
  - [sample.csv](sample.csv) — eksempeldata
